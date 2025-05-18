@@ -1,3 +1,4 @@
+import sys
 import pygame
 from player import Player
 from constants import *
@@ -33,6 +34,11 @@ def main():
                 return
         
         updateable.update(dt)
+
+        for asteroid in asteroids:
+            if asteroid.checkCollision(player_1):
+                print("Game over!")
+                sys.exit()
 
         screen.fill("black")
         
