@@ -3,7 +3,7 @@
 This project was written in **Python** using **pygame**. It's a simple game of
 Asteroids that some may remember as a retro arcade game.
 
-I wrote this as part of my courses **[Boot.dev](https://boot.dev/)** and it was
+I wrote this as part of my courses @**[Boot.dev](https://boot.dev/)** and it was
 a great learning experience since I've rarely used pygame before.
 
 In its current state, it's increadably simple, but functional.
